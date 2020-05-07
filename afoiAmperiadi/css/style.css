@@ -1,0 +1,357 @@
+
+body{
+	background-image:url("/home/dim/afoiAmperiadi/images/forbackground.jpg");
+	opacity: 1;
+}
+
+#button-styling{
+	position: absolute;
+	right: 0;
+}
+
+#header-nav{
+	background-color: black;
+	position: relative;
+	padding: 15px;
+	opacity:0.5;
+	border: 0;	
+}
+#nav-list{
+	font-family: 'Gothi	 A1', sans-serif;
+    color: #FFFAF0;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-brand span{
+	color: white;
+}
+
+.panel-footer{
+	background-color: #000000;
+	opacity:0.7;
+	border: 0;	
+	font-family: 'Gothi	 A1', sans-serif;
+	font-size: 20px;
+
+}
+
+header {
+	position:fixed;
+	top:0;
+	width: 100%;
+	z-index: 99;
+	height: 50px;
+}
+
+
+.navbar-brand h2{
+    position: absolute;
+    font-family: 'Gothi	 A1', sans-serif;
+    color: #FFFAF0;
+    margin:auto;
+    top:20px;
+    text-shadow: 2px 2px 2px #222;
+
+}
+
+.navbar-brand span{
+	position: absolute;
+	margin-top: 30px;
+	font-family: 'Gothi	 A1', sans-serif;
+	font-style:italic;
+	font-size:1em;
+
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+li{
+
+	font-style: bold;
+	color:#FFFAF0;
+	font-size:1.5em;
+	font-family: 'Gothi	 A1', sans-serif;
+	margin-bottom:10px;
+	margin-top:-10px;
+}
+
+#collapsable-nav.navbar-collapse.collapse{
+	margin-top: 30px;
+}
+
+#photo-styling{
+margin-top:150px;
+width: 100%
+
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+
+
+.text-styling{
+	
+	padding: 5px;
+	 font-family: 'Gothi	 A1', sans-serif;
+	 font-size: 20px;
+	 margin: auto;
+	 align-items: center;
+	 overflow: auto;
+}
+
+
+#hours, #address, #phone-number{
+	text-align: center;
+	font-family: 'Gothi	 A1', sans-serif;
+    color: #F5F5DC;
+    font-style: bold;	
+}
+
+/*.anchor{
+	padding-top: 120px;*/
+}
+#box{
+	background-color: #000;
+	opacity: 0.8;
+	width: inherit;
+}
+#company{
+  background-position: center;
+}
+
+#company span{
+
+	background-color: #000;
+	top: 0;
+    right: 0;
+    width: inherit;
+  	color: #F5F5DC;
+  	margin: 20px;
+}
+.gallery{
+	
+	margin:auto;
+
+}
+
+.gallery div{
+	padding: 10px;
+	margin:auto;
+	background-color:#000;
+	opacity: 0.8;
+	z-index: 0;
+	}
+
+ h3{
+ 	color:white;
+ }
+ .trucks{
+ 	width: 70%;
+ 	height: 430px;
+ 	margin:auto;
+ }
+
+ .gallery button{
+ 	background-color: black;
+ 	opacity: 0.5;
+ 	font-family: 'Gothi	 A1', sans-serif;
+    color: #F5F5DC;
+    font-style: bold;
+ }
+
+ button:hover {opacity: 1}
+ #buttons{
+ 	text-align: center;
+ }
+
+@media(max-width: 991px)/*for medium devices*/
+{
+
+	.navbar-brand h2{
+    position: absolute;
+    font-family: 'Gothi	 A1', sans-serif;
+    color: #F5F5DC;
+    margin:auto;
+    top:20px;
+    text-shadow: 2px 2px 2px #222;
+
+}
+
+.navbar-brand span{
+	position: absolute;
+	margin-top: 20px;
+	font-family: 'Gothi	 A1', sans-serif;
+	font-style:italic;
+	font-size: 0.8em;
+
+}
+
+
+li{
+	
+	font-style: bold;
+	color:#F5F5DC;
+	font-size:1.3em;
+	margin-top:-40px;
+	margin-right: -20px;
+}
+
+.text-styling{
+	
+	padding: 10px;
+	 font-family: 'Gothi	 A1', sans-serif;
+	 margin: auto;
+	 align-items: center;
+}
+}
+
+
+
+@media (max-width:767.98px){/*for sm devices*/
+
+	.navbar-brand h2{
+    position: absolute;
+    font-family: 'Gothi	 A1', sans-serif;
+    color: #F5F5DC;
+    margin:auto;
+    top:20px;
+    text-shadow: 2px 2px 2px #222;
+
+}
+
+.navbar-brand span{
+	position: absolute;
+	margin-top: 20px;
+	font-family: 'Gothi	 A1', sans-serif;
+	font-style:italic;
+	font-size: 0.8em;
+
+}
+
+	
+li{
+	float: right;
+	font-style: bold;
+	color:#F5F5DC;
+	font-size:1.3em;
+	margin:auto;
+	
+}
+
+.visible-sm{
+	display: block;
+}
+
+/*.anchor{
+	padding-top: 100px;
+}
+*/
+
+@media (max-width: 575.98px) { /*for xs devices*/
+	.navbar-brand h2{
+    position: absolute;
+    font-family: 'Gothi	 A1', sans-serif;
+    color: #F5F5DC;
+    margin:auto;
+    top:20px;
+    font-size:1em;
+    text-shadow: 2px 2px 2px #222;
+
+}
+
+.navbar-brand span{
+	position: absolute;
+	margin-top: 20px;
+	font-size: 0.7em;
+	font-family: 'Gothi	 A1', sans-serif;
+	font-style:italic;
+
+}
+
+li{
+	float: right;
+	font-style: bold;
+	color:#F5F5DC;
+	font-size:1.2em;
+	margin:auto;
+	
+}
+.text-styling{
+	
+	padding: 5px;
+	font-family: 'Gothi	 A1', sans-serif;
+
+}
+.hidden-xs{
+	display: none;
+}
+
+img{
+	/*width: 100%;*/
+	margin: auto;
+}
+.trucks{
+ 	width: 70%;
+ 	height: 300px;
+ 	margin:auto;
+ }
+
+}
+@media(max-width: 362px){/*for xxs devices*/
+	.navbar-brand h2{
+    position: absolute;
+    font-family: 'Gothi	 A1', sans-serif;
+    color: #F5F5DC;
+    margin:auto;
+    top:20px;
+    font-size:0.8em;
+    text-shadow: 2px 2px 2px #222;
+}
+
+    li{
+	float: right;
+	font-style: bold;
+	color:#F5F5DC;
+	font-size:0.7em;
+	margin:auto;
+	
+}
+
+
+
+.navbar-brand span{
+	position: absolute;
+	margin-top: 20px;
+	font-size: 0.6em;
+	font-family: 'Gothi	 A1', sans-serif;
+	font-style:italic;
+
+
+}
+
+.text-styling{
+	padding: 10px;
+	
+}
+
+.hidden-xxs{
+	display: none;
+}
+.trucks{
+ 	width: 70%;
+ 	height: 250px;
+ 	margin:auto;
+ }
+/*img{
+	width: 100%
+}*/
+}
+
