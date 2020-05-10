@@ -1,0 +1,55 @@
+body{
+	background: rgb(2,0,36);
+    background: linear-gradient(96deg, rgba(2,0,36,1) 0%, rgba(70,124,90,1) 47%, rgba(31,48,101,1) 100%);
+}
+body::after {
+  content: "";
+  background: url(images/font-image.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.container{
+	height: 669px;
+}
+span{
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: black;
+	text-shadow: 1px 1px;
+}
+ button{
+ 	padding: 10px;
+ 	border:0.16em solid #FFFFFF;
+ 	transition: all 0.15s;
+ 	font-weight:400;
+ 	color:#FFFFFF;
+ 	background-color: inherit;
+ 	margin:10px;
+  }
+button:hover{
+	background-color: #FFEFD5;
+}
+
+#main-menu{
+	text-align: center;
+	margin:auto;
+	margin-top: 20%;
+}
+#section2{
+	background-color: white;
+}
+#Copyright{
+	position: absolute;
+	bottom:0;
+	text-align: center;
+
+
+}
