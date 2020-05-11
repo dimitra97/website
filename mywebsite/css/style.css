@@ -5,17 +5,17 @@ body{
 body::after {
   content: "";
   background: url(images/font-image.jpg);
-  background-repeat: no-repeat;
   opacity: 0.3;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  height: 100vh;
   position: absolute;
   z-index: -1;   
 }
 .container{
-	height: 669px;
+	height: 100vh;
 }
 span{
 	text-align: center;
@@ -25,7 +25,7 @@ span{
 	color: black;
 	text-shadow: 1px 1px;
 }
- button{
+ #main-menu button{
  	padding: 10px;
  	border:0.16em solid #FFFFFF;
  	transition: all 0.15s;
@@ -34,22 +34,80 @@ span{
  	background-color: inherit;
  	margin:10px;
   }
-button:hover{
+#main-menu button:hover{
 	background-color: #FFEFD5;
 }
-
+#main-menu button:focus{
+	background-color: #FFEFD5;
+}
 #main-menu{
 	text-align: center;
 	margin:auto;
 	margin-top: 20%;
+	overflow: hidden;
+
 }
+
 #section2{
-	background-color: white;
+	text-align: center;
+	margin: auto;
+	display:none;
+}
+
+#physics-quote{
+	font-size:40px;
+	text-align: center;
+	color: white;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	z-index: 999;
+
 }
 #Copyright{
 	position: absolute;
 	bottom:0;
+	right: 0;
+}
+#Freshmen-tile:hover, #Junior-tile:hover, #Senior-tile:hover{
+	box-shadow: 7px 7px #F5DEB3;
+}
+#high-school span{
 	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-shadow: 1px 1px;
+	position: absolute;
+	left:0;
+	bottom:5px;
+	margin:auto;
+	padding:8px;
+  	opacity: .8;
+	
+}
 
+#Freshmen-tile, #Junior-tile, #Senior-tile{
+	position: relative;
+	background-color: inherit;
+	width: 70%;
+	opacity: 0.8;
+	padding: 30px;
+	border: 2px solid black;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+
+@media(max-width: 575.98px)
+{
+	#Freshmen-tile, #Junior-tile, #Senior-tile{
+		width: 100%
+	}
+}
+@media(max-width:767.98px){
+	#Freshmen-tile, #Junior-tile, #Senior-tile{
+		width: 50%
+	}
 
 }
