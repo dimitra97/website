@@ -44,7 +44,7 @@ ul {
 li a {
 	padding: 20px;
 	float:left;
-	font-size: 25px;
+	font-size: 23px;
 	text-align: center;
 	color: white;
 	text-shadow: 0.5px 0.5px;
@@ -55,7 +55,7 @@ li a {
 li a:hover{
 	padding: 20px;
 	float:left;
-	font-size: 28px;
+	font-size: 23px;
 	text-align: center;
 	text-decoration:none;
 	color: white;
@@ -68,7 +68,7 @@ li a:hover{
 li a:focus{
 	padding: 20px;
 	float:left;
-	font-size: 25px;
+	font-size: 23px;
 	text-align: center;
 	text-decoration:none;
 	color: white;
@@ -84,7 +84,7 @@ li a:focus{
 .social-media a{
 	padding: 25px;
 	float:right;
-	font-size: 25px;
+	font-size: 23px;
 	color: white;
 	display: inline;
 }
