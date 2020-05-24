@@ -1,6 +1,7 @@
 
 $(function(){
 
+ window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
 var h = window.getComputedStyle(
 	document.querySelector('.home-font'), ':after'
 ).getPropertyValue('height')
