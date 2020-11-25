@@ -120,6 +120,13 @@ i{
 	font-weight: bold;
 	color: white;
 }
+a.fa.fa-instagram:hover{
+	color:#EE82EE;
+}
+
+a.fa.fa-facebook:hover, a.fa.fa-linkedin:hover{
+	color: blue;
+}
 
 
 #welcome-text a{
@@ -142,6 +149,7 @@ i{
 }
 #welcome-text a:hover{
 	font-weight: bold;
+	color: white;
 }
 
 a.button2{
@@ -213,6 +221,60 @@ div #section2{
 	z-index: -10;
 }
 
+div#mysite1{
+	background:url("images/matlab.png") no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 40px;
+	margin-top: 20px;
+	text-align: center;
+	color: #000080;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+}
+
+#matlab{
+position: absolute;
+left:1%;
+top:3%;
+padding: 5px;
+background-color: #E0E0E0;
+font-weight: 900;
+border-radius: 40px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#section2 div:hover #mysite1{
+	 opacity: 0.7;
+
+}
+
+#section2 div:hover .middle {
+  opacity: 1;
+}
+
+
+
+.text {
+  background-color:#E0E0E0 ;
+  color: #000080;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Lato',sans-serif;
+}
 div #section3{
 	position: absolute;
 	left:0;
