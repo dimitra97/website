@@ -225,7 +225,25 @@ div#mysite1{
 	background:url("images/matlab.png") no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
+	padding: 10px;
 	left: 0;
+	width: 100%;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 40px;
+	margin-top: 20px;
+	text-align: center;
+	color: #000080;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+}
+
+div#mysite2{
+	background:url("images/cplusplus.jpg") no-repeat;
+	padding: 10px;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 10px;
 	width: 100%;
 	height: 300px;
 	border: 2px solid black;
@@ -246,6 +264,16 @@ background-color: #E0E0E0;
 font-weight: 900;
 border-radius: 40px;
 }
+
+#cplusplus{
+position: absolute;
+left:1%;
+top:3%;
+padding: 5px;
+background-color: #E0E0E0;
+font-weight: 900;
+border-radius: 40px;
+}
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -258,6 +286,11 @@ border-radius: 40px;
 }
 
 #section2 div:hover #mysite1{
+	 opacity: 0.7;
+
+}
+
+#section2 div:hover #mysite2{
 	 opacity: 0.7;
 
 }
