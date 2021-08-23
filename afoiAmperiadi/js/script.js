@@ -10,7 +10,7 @@ $(function(){
 	 });
 
 	$("#link3").click(function(){
-		document.getElementById("section2").style.paddingTop="150px";
+		document.getElementById("section2").style.paddingTop="120px";
 	});
 	 
 	});

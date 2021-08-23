@@ -7,31 +7,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 	<title>My Website</title>
 </head>
 
 <body>
 	<header>
+<div class="dropdown">
+  <button class="dropbtn"><span class="glyphicon glyphicon-list"></span></button>
+  <div class="dropdown-content">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
 		
 	</header>
 	<div class="container">
 	<div id="main-menu">
 		<a href="#section1">
-			<button><span>Αρχική</span></button></a>
-			<a href="#section2" id="physics-link">
-				<button><span>Φυσική</span></button></a>
+			<button id="home-page"><span>Αρχική</span></button></a>
+			<a href="#section2">
+				<button id="physics-link"><span>Φυσική</span></button></a>
 				<a href="#section3">
-					<button><span>Μαθηματικά</span></button></a>
+					<button id="maths-link"><span>Μαθηματικά</span></button></a>
 					<a href="#section4">
-						<button><span>Επικοινωνία</span></button></a>
+						<button id="contact-link"><span>Επικοινωνία</span></button></a>
 	
 		</div>
 
-	<div id="section1"></div>
+	<div id="section1"><span>Καλώς ήρθατε στην ιστοσελίδα μου. Ονομάζομαι Αμπεριάδου Δήμητρα και είμαι απόφοιτη του τμήματος Φυσικής Α.Π.Θ. Η ιστοσελίδα αυτή έχει δημιουργηθεί από εμένα με σκοπό να βοηθήσει και να καθοδηγήσει μαθητές όλων των τάξεων του Λυκείου κατά τη σχολική τους πορεία στα μαθήματα της Φυσικής και των Μαθηματικών. Το υλικό παρέχεται δωρεάν και έχει δημιουργηθεί από εμένα αποκλειστικά. Μπορείτε να περιηγηθείτε στην ιστοσελίδα από το menu και να αντλήσετε περιεχόμενο, όπως θεωρία και ασκήσεις μέσα από τα αντίστοιχα αρχεία. Καλό διάβασμα!</span></div>
+
 	<div id="section2">
 	<div id="high-school" class="row">
 	<div class="col-md-4 col-sm-6 col-xs-12">
-		<a href="#"><button id="Freshmen-tile"><span>Α'Λυκείου </span></button></a>
+		<a href="subpages/physics-JHS.html"><button id="Freshmen-tile"><span>Α'Λυκείου </span></button></a>
 	</div>
 		<div class="col-md-4 col-sm-6 col-xs-12">
 		<a href="#"><button id="Junior-tile"><span>Β'Λυκείου </span></button></a>
@@ -43,10 +53,37 @@
 </div>
 
 <div id="section3">
+	<div id="high-school" class="row">
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#"><button id="Freshmen-tile"><span>Α'Λυκείου </span></button></a>
+	</div>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#"><button id="Junior-tile"><span>Β'Λυκείου </span></button></a>
+	</div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#"><button id="Senior-tile"><span>Γ'Λυκείου </span></button></a>
+	</div>
+	</div>
+	<div id="gymnasium" class="row">
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#"><button id="Freshmen-tile"><span>Α'Γυμνασίου </span></button></a>
+	</div>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#"><button id="Junior-tile"><span>Β'Γυμνασίου </span></button></a>
+	</div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#"><button id="Senior-tile"><span>Γ'Γυμνασίου</span></button></a>
+	</div>
+	</div>
 	
 </div>
 
- <div class="text-center" id="Copyright">&copy; Copyright Dimitra Amperiadou 2020</div>
+<div id="section4">
+	<span class="glyphicon glyphicon-envelope"> e-mail: dimitraamp.1997@gmail.com</span>
+	<span><i class="fa fa-linkedin"></i> Linkedin: Dimitra Amperiadou</span>
+</div>
+
+ <div class="text-center" id="Copyright">&copy; Copyright Dimitra Amperiadou 2020|Designed by Dimitra Amperiadou</div>
 </div>
 
 	

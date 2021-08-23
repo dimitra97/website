@@ -8,10 +8,13 @@ var h = window.getComputedStyle(
 	document.getElementById("section1").style.top=h;
 
 	var sect1=document.getElementById("section1");
-	var top2= 2*sect1.offsetTop;
-	var top3=3*sect1.offsetTop;
+	var sect2=document.getElementById("section2");
+	var top2= sect1.offsetTop;
+	var top3=sect1.offsetTop;
 	document.getElementById("section2").style.top=top2+"px";
 	document.getElementById("section3").style.top=top3+"px";
+
+	
 
 
 
@@ -25,16 +28,16 @@ var header=document.getElementById("myHeader");
 	var w=window.innerWidth;
 
 	if (w>1300){
-		$("#about-me-text").style.fontSize="28px";
+		document.getElementById("about-me-text").style.fontSize="28px";
 	}
 	
-	$(document).scroll(function(){
-   if($(this).scrollTop() > 0) {   
-        header.style.backgroundColor="black";
-    } else  { 
-   		header.style.backgroundColor="inherit";
-     };
-});
+	$(window).on("scroll",function(){
+   		if($(window).scrollTop() > 0) {   
+        	header.style.backgroundColor="black";
+    	} else  { 
+   			header.style.backgroundColor="inherit";
+     	};
+	});
 
 });
 
